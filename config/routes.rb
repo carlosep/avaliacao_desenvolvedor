@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root 'sales#index'
+  root 'sales#new'
   resources :sales
 end
