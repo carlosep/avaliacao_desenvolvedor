@@ -16,11 +16,11 @@ ActiveRecord::Schema.define(version: 20160804192342) do
   create_table "sales", force: :cascade do |t|
     t.string   "customer"
     t.string   "description"
-    t.decimal  "price"
+    t.float    "price"
     t.integer  "quantity"
     t.string   "address"
     t.string   "supplier"
-    t.decimal  "total"
+    t.float    "total"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
