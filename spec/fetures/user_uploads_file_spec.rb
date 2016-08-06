@@ -5,6 +5,23 @@ feature 'User uploads file' do
     visit root_path
     attach_file("File", Rails.root + "spec/fixtures/dados.txt")
     click_on 'Upload'
-    expect(page).to have_content 'Tables'
+    expect(page).to have_content 'João Silva'
+    expect(page).to have_content 'Amy Pond'
+    expect(page).to have_content 'Marty McFly'
+    expect(page).to have_content 'Snake Plissken'
+    expect(page).to have_content 'R$ 50.00'
+    expect(page).to have_content 'R$ 5.00'
+    expect(page).to have_content 'R$ 20.00'
+  end
+  scenario 'without file' do
+    visit root_path
+    click_on 'Upload'
+    expect(page).to have_content 'Arquivo .txt obrigatório'
+  end
+  scenario 'with invalid file' do
+    visit root_path
+    attach_file("File", Rails.root + "spec/fixtures/img.png")
+    click_on 'Upload'
+    expect(page).to have_content 'Tipo inválido. Apenas arquivos .txt'
   end
 end

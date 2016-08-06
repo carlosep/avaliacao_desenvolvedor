@@ -1,4 +1,5 @@
 class SalesController < ApplicationController
+  before_action :file_mandatory, only: [:create]
   def index
     @sales = Sale.all
   end
