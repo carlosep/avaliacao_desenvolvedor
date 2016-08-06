@@ -25,7 +25,6 @@ class SalesController < ApplicationController
       @sale.address = item[4]
       @sale.supplier = item[5]
       @sale.total = item[2].to_f * item[3].to_i
-      binding.pry
       @sale.save
     end
     redirect_to sales_path

@@ -4281,3 +4281,583 @@ Processing by SalesController#index as HTML
   [1m[35mSale Load (0.6ms)[0m  SELECT "sales".* FROM "sales"
   Rendered sales/index.html.erb within layouts/application (51360.3ms)
 Completed 200 OK in 51421ms (Views: 51417.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 17:56:46 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SalesController#index as HTML
+  Rendered sales/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 457ms (Views: 448.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:03:45 -0300
+Processing by SalesController#index as HTML
+  Rendered sales/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6e16398a45e74280be15a0c1bc7def7e0c9f3b5de1cb94346a67c00ea79ce276.css?body=1" for 127.0.0.1 at 2016-08-05 18:03:46 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:03:46 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:03:46 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:03:46 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:03:46 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:03:46 -0300
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:08:45 -0300
+Processing by SalesController#index as HTML
+  [1m[35mSale Load (0.3ms)[0m  SELECT "sales".* FROM "sales"
+  Rendered sales/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.self-6e16398a45e74280be15a0c1bc7def7e0c9f3b5de1cb94346a67c00ea79ce276.css?body=1" for 127.0.0.1 at 2016-08-05 18:08:45 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:08:45 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:08:45 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:08:45 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:08:45 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:08:45 -0300
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:09:02 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:09:04 -0300
+Processing by SalesController#index as HTML
+  [1m[36mSale Load (0.4ms)[0m  [1mSELECT "sales".* FROM "sales"[0m
+  Rendered sales/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:09:34 -0300
+Processing by SalesController#index as HTML
+  [1m[35mSale Load (0.8ms)[0m  SELECT "sales".* FROM "sales"
+  Rendered sales/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-6e16398a45e74280be15a0c1bc7def7e0c9f3b5de1cb94346a67c00ea79ce276.css?body=1" for 127.0.0.1 at 2016-08-05 18:09:34 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:09:35 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:09:35 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:09:35 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:09:35 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:09:35 -0300
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:09:54 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:10:09 -0300
+Processing by SalesController#index as HTML
+  [1m[36mSale Load (0.4ms)[0m  [1mSELECT "sales".* FROM "sales"[0m
+  Rendered sales/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 66ms (Views: 64.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:10:32 -0300
+Processing by SalesController#index as HTML
+  [1m[35mSale Load (0.2ms)[0m  SELECT "sales".* FROM "sales"
+  Rendered sales/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 2007ms (Views: 2005.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-573030038b69e0e428ae087d419eac44b13716640d135f8868d5b1f862272953.css?body=1" for 127.0.0.1 at 2016-08-05 18:10:34 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:10:34 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:10:34 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:10:34 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:10:34 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:10:34 -0300
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:10:42 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 55ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:10:52 -0300
+Processing by SalesController#index as HTML
+  [1m[36mSale Load (0.3ms)[0m  [1mSELECT "sales".* FROM "sales"[0m
+  Rendered sales/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:11:06 -0300
+Processing by SalesController#index as HTML
+  [1m[35mSale Load (0.3ms)[0m  SELECT "sales".* FROM "sales"
+  Rendered sales/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:11:06 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:06 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:06 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:06 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:06 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:11:06 -0300
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:11:07 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:11:22 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:11:22 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:22 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:22 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:22 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:22 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:11:22 -0300
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:11:36 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:11:37 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:37 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:37 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:37 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:37 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:11:37 -0300
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:11:44 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:11:44 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:44 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:44 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:44 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:44 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:11:44 -0300
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:11:52 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:52 -0300
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:11:52 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:52 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:52 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:52 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:11:52 -0300
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:11:57 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:58 -0300
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:11:58 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:58 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:58 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:11:58 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:11:58 -0300
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:12:12 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:12:12 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:12:12 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:12:12 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:12:12 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:12:12 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:12:12 -0300
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:12:16 -0300
+Processing by SalesController#index as HTML
+  [1m[36mSale Load (0.6ms)[0m  [1mSELECT "sales".* FROM "sales"[0m
+  Rendered sales/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:12:18 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 82ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:12:27 -0300
+Processing by SalesController#index as HTML
+  [1m[35mSale Load (0.5ms)[0m  SELECT "sales".* FROM "sales"
+  Rendered sales/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:12:29 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+  [1m[36mSale Load (2.5ms)[0m  [1mSELECT "sales".* FROM "sales"[0m
+  [1m[35mSQL (149.2ms)[0m  DELETE FROM "sales"
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:13:05 -0300
+Processing by SalesController#index as HTML
+  [1m[36mSale Load (0.6ms)[0m  [1mSELECT "sales".* FROM "sales"[0m
+  Rendered sales/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:13:07 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sales" for 127.0.0.1 at 2016-08-05 18:13:12 -0300
+Processing by SalesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LeDPyBC3jUlbUa9SoPDgZzsMISmo7TFB6GpwkQxj8UgvtXfVVQOJamK3hkQorrwJLPtKAzs7xG5llc5mVgEgSg==", "sale"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x000000049bde18 @tempfile=#<Tempfile:/tmp/RackMultipart20160805-12101-tfo2hj.txt>, @original_filename="dados.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"sale[file]\"; filename=\"dados.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "sales" ("customer", "description", "price", "quantity", "address", "supplier", "total", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["customer", "João Silva"], ["description", "R$10 off R$20 of food"], ["price", 10.0], ["quantity", 2], ["address", "987 Fake St"], ["supplier", "Bob's Pizza"], ["total", 20.0], ["created_at", "2016-08-05 21:13:19.160302"], ["updated_at", "2016-08-05 21:13:19.160302"]]
+  [1m[35m (154.0ms)[0m  commit transaction
+Completed 500 Internal Server Error in 10995ms (ActiveRecord: 155.3ms)
+
+SystemExit (exit):
+  app/controllers/sales_controller.rb:29:in `block in create'
+  app/controllers/sales_controller.rb:19:in `each'
+  app/controllers/sales_controller.rb:19:in `create'
+
+
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (149.6ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (44.7ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (244.5ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.8ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.0ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.8ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.4ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.1ms)
+  Rendered /home/carlos/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (122.5ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:13:49 -0300
+Processing by SalesController#index as HTML
+  [1m[36mSale Load (0.8ms)[0m  [1mSELECT "sales".* FROM "sales"[0m
+  Rendered sales/index.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 207ms (Views: 196.6ms | ActiveRecord: 4.4ms)
+  [1m[36mSQL (147.2ms)[0m  [1mDELETE FROM "sales"[0m
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:14:08 -0300
+Processing by SalesController#index as HTML
+  [1m[35mSale Load (0.5ms)[0m  SELECT "sales".* FROM "sales"
+  Rendered sales/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 174ms (Views: 169.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:14:09 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 187ms (Views: 183.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sales" for 127.0.0.1 at 2016-08-05 18:14:17 -0300
+Processing by SalesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vWJ93VCbpcR7e8fe7Hmpo7ixWUH8NHrouss3QO+gyAi/N8XAFS+h50Kd7shkJ/XNr0Yya2/ij8c3NIm3tcIZCg==", "sale"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fcb6988c9d0 @tempfile=#<Tempfile:/tmp/RackMultipart20160805-12101-cwccuw.txt>, @original_filename="dados.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"sale[file]\"; filename=\"dados.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Upload"}
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "sales" ("customer", "description", "price", "quantity", "address", "supplier", "total", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["customer", "João Silva"], ["description", "R$10 off R$20 of food"], ["price", 10.0], ["quantity", 2], ["address", "987 Fake St"], ["supplier", "Bob's Pizza"], ["total", 20.0], ["created_at", "2016-08-05 21:14:17.780512"], ["updated_at", "2016-08-05 21:14:17.780512"]]
+  [1m[36m (153.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "sales" ("customer", "description", "price", "quantity", "address", "supplier", "total", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["customer", "Amy Pond"], ["description", "R$30 of awesome for R$10"], ["price", 10.0], ["quantity", 5], ["address", "456 Unreal Rd"], ["supplier", "Tom's Awesome Shop"], ["total", 50.0], ["created_at", "2016-08-05 21:14:17.975691"], ["updated_at", "2016-08-05 21:14:17.975691"]]
+  [1m[35m (157.3ms)[0m  commit transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "sales" ("customer", "description", "price", "quantity", "address", "supplier", "total", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["customer", "Marty McFly"], ["description", "R$20 Sneakers for R$5"], ["price", 5.0], ["quantity", 1], ["address", "123 Fake St"], ["supplier", "Sneaker Store Emporium"], ["total", 5.0], ["created_at", "2016-08-05 21:14:18.176454"], ["updated_at", "2016-08-05 21:14:18.176454"]]
+  [1m[36m (230.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.8ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "sales" ("customer", "description", "price", "quantity", "address", "supplier", "total", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["customer", "Snake Plissken"], ["description", "R$20 Sneakers for R$5"], ["price", 5.0], ["quantity", 4], ["address", "123 Fake St"], ["supplier", "Sneaker Store Emporium"], ["total", 20.0], ["created_at", "2016-08-05 21:14:18.453443"], ["updated_at", "2016-08-05 21:14:18.453443"]]
+  [1m[35m (121.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/sales
+Completed 302 Found in 836ms (ActiveRecord: 670.1ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:14:18 -0300
+Processing by SalesController#index as HTML
+  [1m[36mSale Load (0.6ms)[0m  [1mSELECT "sales".* FROM "sales"[0m
+  Rendered sales/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 186ms (Views: 181.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:14:34 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 183ms (Views: 177.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:14:40 -0300
+Processing by SalesController#index as HTML
+  [1m[35mSale Load (2.4ms)[0m  SELECT "sales".* FROM "sales"
+  Rendered sales/index.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 229ms (Views: 218.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:14:59 -0300
+Processing by SalesController#index as HTML
+  [1m[36mSale Load (1.3ms)[0m  [1mSELECT "sales".* FROM "sales"[0m
+  Rendered sales/index.html.erb within layouts/application (36.5ms)
+Completed 200 OK in 360ms (Views: 353.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:15:00 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:00 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:00 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:00 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:00 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:15:00 -0300
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:15:11 -0300
+Processing by SalesController#index as HTML
+  [1m[35mSale Load (0.8ms)[0m  SELECT "sales".* FROM "sales"
+  Rendered sales/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 360ms (Views: 351.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:12 -0300
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:15:12 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:12 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:12 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:12 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:15:12 -0300
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:15:21 -0300
+Processing by SalesController#index as HTML
+  [1m[36mSale Load (0.9ms)[0m  [1mSELECT "sales".* FROM "sales"[0m
+  Rendered sales/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 387ms (Views: 378.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:21 -0300
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:15:21 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:21 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:22 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:22 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:15:22 -0300
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:15:36 -0300
+Processing by SalesController#index as HTML
+  [1m[35mSale Load (1.6ms)[0m  SELECT "sales".* FROM "sales"
+  Rendered sales/index.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 365ms (Views: 358.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:15:37 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:37 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:37 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:37 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:15:37 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:15:38 -0300
+
+
+Started GET "/sales" for 127.0.0.1 at 2016-08-05 18:16:43 -0300
+Processing by SalesController#index as HTML
+  [1m[36mSale Load (0.6ms)[0m  [1mSELECT "sales".* FROM "sales"[0m
+  Rendered sales/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 210ms (Views: 206.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-94934670043c90b41ec73b405c8c11a3d7c53fe8ec929f85b80c420be885b9dc.css?body=1" for 127.0.0.1 at 2016-08-05 18:16:43 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 18:16:43 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 18:16:43 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 18:16:44 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 18:16:44 -0300
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2016-08-05 18:16:44 -0300
+
+
+Started GET "/sales/new" for 127.0.0.1 at 2016-08-05 18:16:54 -0300
+Processing by SalesController#new as HTML
+  Rendered sales/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 271ms (Views: 266.0ms | ActiveRecord: 0.0ms)

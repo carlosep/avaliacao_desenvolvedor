@@ -1,6 +1,30 @@
-<h1>Tables</h1>
-
+<h1>Registros importados</h1>
+<br>
+<table class='table'>
+ <thead>
+   <tr>
+     <th> Comprador </th>
+     <th> Descrição </th>
+     <th> Preço unitário </th>
+     <th> Quantidade </th>
+     <th> Endereço </th>
+     <th> Fornecedor </th>
+     <th> Total </th>
+   </tr>
+ </thead>
+ <tbody>
+   <% @sales.each do |item| %>
+      <tr>
+        <td> <%= item.customer %> </td>
+        <td> <%= item.description %> </td>
+        <td> <%= item.price %> </td>
+        <td> <%= item.quantity %> </td>
+        <td> <%= item.address %> </td>
+        <td> <%= item.supplier %> </td>
+        <td> <%= item.total %> </td>
+      </tr>
+   <% end %>
+ </tbody>
+</table>
+<hr>
 <h3><%= link_to '<i class="glyphicon glyphicon-arrow-right" aria-hidden="true"></i> Home'.html_safe, new_sale_path %></h3>
-<p>
- <%= @sales %>
-</p>
