@@ -1,45 +1,17 @@
-# Desafio de programação 1
-A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador, de vários níveis.
+# Avaliação Desenvolvedor - Ruby on Rails - Carlos Eduardo Palha
+O projeto foi implementado conforme descrito nas instruções. Seguem abaixo instruções para instalação e execução do mesmo.
 
-Este desafio deve ser feito por você em sua casa. Gaste o tempo que você quiser, porém normalmente você não deve precisar de mais do que algumas horas.
+## Instruções para instalação do projeto.
+obs: todos os comandos deverão ser efetuados sem aspas e confirmados com enter.
+1. Através do terminal acesse o diretório onde deseja salvar o projeto através do comando 'cd seu/diretorio/escolhido'
+1. Efetue o comando 'git clone git@github.com:carlosep/avaliacao_desenvolvedor.git'
+2. Entre no diretório a partir do comando 'cd avaliacao_desenvolvedor'
+3. Execute o comando 'rails server'
+4. Sem fechar o terminal, abra o browser de sua preferência e digite na barra de endereços 'localhost:3000'
+5. A página inicial do projeto abrirá.
 
-## Instruções de entrega do desafio
-1. Primeiro, faça um fork deste projeto para sua conta no Github (crie uma se você não possuir).
-2. Em seguida, implemente o projeto tal qual descrito abaixo, em seu próprio fork.
-3. Crie as instruções de instalação e execução do aplicativo em seu readme.md
-4. Por fim, envie o link do seu repositorio para avaliarmos seu código
-
-
-## Descrição do projeto
-Você recebeu um arquivo de texto com os dados de vendas da empresa. Precisamos criar uma maneira para que estes dados sejam importados para um banco de dados.
-
-Sua tarefa é criar uma interface web que aceite upload de arquivos, normalize os dados e armazene-os no banco de dados.
-
-Sua aplicação web DEVE:
-
-1. Aceitar (via um formulário) o upload de arquivos text, com dados separados por TAB testar o aplicativo usando o arquivo fornecido. A primeira linha do arquivo tem o nome das colunas. Você pode assumir que as colunas estarão sempre nesta ordem, e que sempre haverá uma linha de cabeçalho. Um arquivo de exemplo chamado 'dados.txt' está incluído neste repositório.
-2. Interpretar ("parsear") o arquivo recebido, normalizar os dados, e salvar corretamente a informação em um banco de dados relacional.
-3. Exibir todos os registros importados, bem como a receita bruta total dos registros contidos no arquivo enviado após o upload + parser.
-4. Se sua vaga é para Ruby e Ruby On Rails, ser escrita obrigatoriamente em: Ruby 2.1+ Rails 4 e SQLite 
-5. Se sua vaga é para .Net ser escrita obrigatoriamente em: VB# ou C#, última versão, SQL Server (pode ser express) 
-6. Ser simples de configurar e rodar a partir das instruções fornecidas, 
-7. funcionando em ambiente compatível com Unix (Linux ou Mac OS X) para Ruby On Rails e Windows para .Net. Ela deve utilizar apenas linguagens e bibliotecas livres ou gratuitas.
-8. Ter um teste de model e controller automatizado para a funcionalidade pedida
-9. Ter uma boa aparecia e ser fácil de usar
-
-## Avaliação
-Seu projeto será avaliado de acordo com os seguintes critérios. 
-
-1. Sua aplicação atende funcionalmente o que foi pedido
-2. Você documentou a maneira de configurar o ambiente e rodar sua aplicação na maquina do avaliador
-3. Você seguiu as instruções enviadas
-4. Voce segue as boas práticas de programação e entrega para o Cliente
-5. O código escrito é facil de entender e manter
-6. Você se preocupa com o uso do aplicativo pelo Usuário
-
-Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas padrões (standard libs), bem como sua experiência com programação orientada a objetos a partir da estrutura de seu projeto, preucupação com o objetivo da aplicação e do seu uso pelo usuário, suporte e manutenção do código por outros desenvolvdores
-
-### Referência
-
-Este desafio foi baseado neste outro desafio: https://github.com/lschallenges/data-engineering
-
+## Instruções para instalação do projeto.
+1. Selecione o arquivo .txt apropriado clicando em 'Choose File'
+2. Com o arquivo selecionado clique no botão 'Upload'
+3. Os dados do arquivo serão salvos e você será redirecionado para uma página que mostra todos os dados cadastrados.
+4. Se preferir pode acessar essa página sem fazer upload simplesmente clicando no link apropriado na página inicial.
