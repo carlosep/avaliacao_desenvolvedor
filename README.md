@@ -1,8 +1,8 @@
 # Avaliação Desenvolvedor - Ruby on Rails - Carlos Eduardo Palha
-O projeto foi implementado conforme descrito nas instruções. Seguem abaixo instruções para instalação e execução do mesmo.
+O projeto foi implementado conforme descrito nas instruções. Seguem abaixo instruções para instalação e execução do mesmo.  
+obs: todos os comandos deverão ser efetuados sem aspas e confirmados com enter.
 
 ## Instruções para instalação do projeto.
-obs: todos os comandos deverão ser efetuados sem aspas e confirmados com enter.  
 1. Através do terminal acesse o diretório onde deseja salvar o projeto através do comando 'cd seu/diretorio/escolhido'
 2. Efetue o comando 'git clone git@github.com:carlosep/avaliacao_desenvolvedor.git'
 3. Entre no diretório a partir do comando 'cd avaliacao_desenvolvedor'
